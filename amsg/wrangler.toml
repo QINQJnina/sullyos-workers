@@ -51,7 +51,7 @@ name = "INSTANT_TICK"
 class_name = "InstantTickDO"
 
 [[migrations]]
-tag = "amsg-instant-tick-v1"
+tag = "v1"
 new_sqlite_classes = ["InstantTickDO"]
 
 # 每分钟查一次到点任务（UTC）。这是主动消息唯一的投递触发方式——
